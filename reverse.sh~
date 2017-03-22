@@ -8,7 +8,7 @@ while [ $len -gt 0 ]
 do
 reverse1=`echo $str |cut -c$len`
 reverse=$reverse$reverse1
-len=`expr $len- 1`
+len=`expr $len - 1`
 done
 echo $reverse
 
